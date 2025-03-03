@@ -223,7 +223,7 @@ def rmse(y, y_pred):
     rmse = np.sqrt(mse(y, y_pred))
     return rmse
 
-def make_confusion_matrix(y, y_pred, threshold=0.5):
+def make_confusion_matrix(y, yhat, threshold=0.5):
     """
     Generate confusion matrix for recommendation binary classification.
     Parameters
